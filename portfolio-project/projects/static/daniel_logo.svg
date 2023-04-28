@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="55.502373mm"
+   height="58.090603mm"
+   viewBox="0 0 55.502373 58.090603"
+   version="1.1"
+   id="svg4939"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="daniel_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4941"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:zoom="0.7500982"
+     inkscape:cx="54.65951"
+     inkscape:cy="203.97329"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4936" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-90.480503,-94.410752)">
+    <g
+       id="g5469"
+       inkscape:export-filename="C:\Users\danie\OneDrive\Desktop\bitmap2.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <circle
+         style="fill:#cc9c75;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path1112"
+         cx="118.23169"
+         cy="124.75017"
+         r="22.751186" />
+      <g
+         aria-label="&gt;"
+         transform="matrix(0.00136058,1.000352,0.99970284,0.0402356,62.676467,10.288773)"
+         id="text3037"
+         style="font-size:78.6168px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:none;fill:#d5d8b5;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           d="m 101.86844,35.439031 18.80968,16.813554 q 0.76775,0.690968 1.19,1.650645 0.46065,0.959678 0.46065,2.034517 0,1.113226 -0.46065,2.111291 -0.46064,0.959678 -1.26677,1.650646 L 102.02199,75.975818 H 87.66521 L 110.54393,55.937747 87.66521,35.439031 Z"
+           id="path4727"
+           style="fill:#d5d8b5;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+    </g>
+    <g
+       id="g2483"
+       transform="translate(28.461503,7.8196518)">
+      <g
+         aria-label="Portfolio"
+         id="text1938"
+         style="font-size:11.9041px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:none;fill:#809a6f;fill-opacity:1;stroke-width:0.496005"
+         transform="translate(1.5751597e-4,6.5537868e-5)" />
+    </g>
+  </g>
+</svg>

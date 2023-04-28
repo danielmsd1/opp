@@ -1,0 +1,174 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Home */
+#home{
+  padding: 2% 10%;
+}
+::selection{
+  background:#D5D8B5;
+  color: #A25B5B;
+}
+
+.home-daniel-logo{
+  width: 20%;
+}
+.home-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-link{
+  text-align: right;
+}
+.home-title-txt{
+  color: #D5D8B5;
+}
+.home-btn{
+  width: 100%;
+  background-color: #A25B5B;
+}
+.home-btn:hover{
+  color: #809A6F;
+}
+.navbar-toggler{
+  color: #D5D8B5;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  margin: 5px;
+  color: #D5D8B5;
+}
+.home-portrait{
+  width: 90%;
+}
+.home-title{
+  line-height: 1.6;
+}
+.home-title h1{
+  padding-top: 20%;
+}
+.drawing_link{
+  width: 30%;
+}
+.navbar-toggler-icon{
+  color: #809A6F;
+}
+/* End Home */
+
+/* Portfolio */
+#portfolio{
+  padding: 3% 10%;
+}
+.portfolio-title{
+  text-align: center;
+}
+.chip {
+  color: #D5D8B5;
+  display: inline-block;
+  padding: 0 25px;
+  margin: 2px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #A25B5B;
+}
+.chip:hover{
+  background-color: #809A6F;
+}
+.portfolio-categories{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.portfolio-img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  border: #809A6F solid 2px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.btn-prj-link{
+  width: 100%;
+}
+.btn-prj-link:hover{
+  background-color: #A25B5B;
+}
+.card{
+  margin: 3px;
+}
+/* End Portfolio */
+
+
+/* Contact  */
+#contact{
+  background-color: #A25B5B;
+  padding: 2% 10%;
+}
+.contact-links{
+  /* font-size: 1.4rem; */
+  text-align: right;
+}
+#contact ul{
+  list-style-type: none;
+}
+.contact-title{
+  color: #D5D8B5;
+}
+.contact-link{
+  text-decoration: none;
+  color: #D5D8B5;
+}
+.contact-link:hover{
+  margin: 2px;
+  color: #809A6F;
+}
+.contact-fa{
+  color: #D5D8B5;
+  padding-left: 5%;
+}
+.contact-fa:hover{
+  color: #809A6F;
+  font-size: 1.5rem;
+}
+
+.footer{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #809A6F;
+  color: white;
+}
+.contact-btn{
+  background-color:#809A6F;
+  width: 100%;
+}
+/* End Contact */
+
+
+/* Media Queries */
+@media screen and (max-width:1000px) {
+  .nav-link{
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .home-btn{
+    margin: 5px;
+  }
+  .home-portrait{
+    width: 100%;
+  }
+  .home-title h1{
+    padding-top: 0%;
+    text-align: center;
+  }
+  .contact-socials{
+    padding-top: 1%;
+  }
+}
+/* End Media Queries */

@@ -1,0 +1,426 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Simiyu</title>
+  <link rel="icon" href="https://gist.githack.com/danielmsd1/e3e01de9251cceb1e5a47eb2b40316ea/raw/c1e445f642040422bd935b4fd8baa5ee9487ea1e/logo.svg">
+  <!-- StyleSheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- FontAwesomeIcons -->
+  <script src="https://kit.fontawesome.com/734ca1f035.js" crossorigin="anonymous"></script>
+  <style>
+    body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Home */
+#home{
+  padding: 2% 10%;
+}
+::selection{
+  background:#D5D8B5;
+  color: #A25B5B;
+}
+
+.home-daniel-logo{
+  width: 20%;
+}
+.home-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-link{
+  text-align: right;
+}
+.home-title-txt{
+  color: #D5D8B5;
+}
+.home-btn{
+  width: 100%;
+  background-color: #A25B5B;
+}
+.home-btn:hover{
+  color: #809A6F;
+}
+.navbar-toggler{
+  color: #D5D8B5;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  margin: 5px;
+  color: #D5D8B5;
+}
+.home-portrait{
+  width: 90%;
+}
+.home-title{
+  line-height: 1.6;
+}
+.home-title h1{
+  padding-top: 20%;
+}
+.drawing_link{
+  width: 30%;
+}
+.navbar-toggler-icon{
+  color: #809A6F;
+}
+/* End Home */
+
+/* Portfolio */
+#portfolio{
+  padding: 3% 10%;
+}
+.portfolio-title{
+  text-align: center;
+}
+.chip {
+  color: #D5D8B5;
+  display: inline-block;
+  padding: 0 25px;
+  margin: 2px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #A25B5B;
+}
+.chip:hover{
+  background-color: #809A6F;
+}
+.portfolio-categories{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.portfolio-img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  border: #809A6F solid 2px;
+  border-radius: 10px;
+  padding: 2px;
+}
+.btn-prj-link{
+  width: 100%;
+}
+.btn-prj-link:hover{
+  background-color: #A25B5B;
+}
+.card{
+  margin: 3px;
+}
+/* End Portfolio */
+
+
+/* Contact  */
+#contact{
+  background-color: #A25B5B;
+  padding: 2% 10%;
+}
+.contact-links{
+  /* font-size: 1.4rem; */
+  text-align: right;
+}
+#contact ul{
+  list-style-type: none;
+}
+.contact-title{
+  color: #D5D8B5;
+}
+.contact-link{
+  text-decoration: none;
+  color: #D5D8B5;
+}
+.contact-link:hover{
+  margin: 2px;
+  color: #809A6F;
+}
+.contact-fa{
+  color: #D5D8B5;
+  padding-left: 5%;
+}
+.contact-fa:hover{
+  color: #809A6F;
+  font-size: 1.5rem;
+}
+
+.footer{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #809A6F;
+  color: white;
+}
+.contact-btn{
+  background-color:#809A6F;
+  width: 100%;
+}
+/* End Contact */
+
+
+/* Media Queries */
+@media screen and (max-width:1000px) {
+  .nav-link{
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .home-btn{
+    margin: 5px;
+  }
+  .home-portrait{
+    width: 100%;
+  }
+  .home-title h1{
+    padding-top: 0%;
+    text-align: center;
+  }
+  .contact-socials{
+    padding-top: 1%;
+  }
+}
+/* End Media Queries */
+  </style>
+
+  <style>
+    #home{
+	background-image: none;
+	background: linear-gradient(70deg, #CC9C75, #809A6F);
+}
+.store-subscription{
+	text-align: center;
+	margin: 3% 10%;
+}
+.store-item-one{
+	height: 200px;
+	width: 200px;
+}
+.home-btn{
+	margin-top: 10px;
+}
+.gallery-view{
+	margin: 1% 3%;
+}
+
+.gallery-img{
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+}
+.gallery-view-top{
+	text-align: center;
+}
+.gallery-img-ctr{
+	padding: 5px;
+	
+}
+.gallery-card{
+	text-align: center;
+}
+  </style>
+</head>
+
+<body>
+
+	<section id="home">
+		
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="/home">
+				<img class="home-daniel-logo" src="https://gist.githack.com/danielmsd1/e3e01de9251cceb1e5a47eb2b40316ea/raw/c1e445f642040422bd935b4fd8baa5ee9487ea1e/logo.svg" alt="">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+				<div class="navbar-nav ms-auto">
+				  <a class="nav-link" aria-current="page" href="/home">Home</a>
+				  <a class="nav-link" href="/home#portfolio">Portfolio</a>
+				  <a class="nav-link" href="#contact">Contact</a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img class="home-portrait" src="https://gist.githack.com/danielmsd1/b02f6ebea7366aa44100e21c2f56ec57/raw/e74e11a0af69169900a6122fe0dfe24d0cb50894/portrait.svg" alt="portrait">
+      </div>
+
+	  <!-- start home -->
+	  {% for home in homes.all %}
+      <div class="home-title col-lg-6 col-md-6">
+        <h1 class="home-title-txt">
+          {{home.home_text}}
+        </h1>
+        <div class="home-link">
+          <div class="row">
+            
+            <div class="col-lg-6">
+				<a href="{{home.github_link}}" class="home-btn btn btn-secondary btn-lg">
+					Github
+				</a>
+            </div>
+
+            <div class="col-lg-6">
+				<a href="mailto:{{home.email}}" class="home-btn btn btn-secondary btn-lg">
+					Email
+				</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+	  {% endfor %}
+	  <!-- end home -->
+
+    </div>
+
+  </div>
+
+  </section>
+
+  <section id="portfolio">
+
+    <div class="portfolio-title">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="portfolio-categories">
+		<!-- begin tag -->
+		{% for tag in tags.all %}
+      <div class="chip">
+        {{tag.title}}
+      </div>
+	  {% endfor %}
+	  <!-- end tag -->
+    </div>
+
+
+    <div class="portfolio-projects">
+      <div class="container-fluid">
+        <div class="row">
+			{% for project in projects.all %}
+          <!-- start of a single project -->
+          <div class="home-col col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="home-card card">
+              <div class="card-header">
+                <h3>{{project.title}} </h3>
+              </div>
+              <div class="card-body">
+                <div class="portfolio-img-ctr">
+                <img class="portfolio-img" src="{{project.image_link}}" alt=""></div>
+                <p class="portfolio-desc">
+                {{ project.description|slice:"0:77" }} ...
+              </p>
+              </div>
+
+              <div class="row">
+                <div class="btn-col col">
+                  <a href="{% url 'portfolioview' project.id %}" class="btn-prj-link btn btn-outline-secondary btn-lg">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  {% endfor %}
+          <!-- end of a single project -->
+
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+
+  <style>
+    .card-body{
+      text-align: center;
+    }
+    img .portfolio-img{
+      width: 100%;
+      height: auto;
+      max-height: 320px;
+      border: 0;
+    }
+    .portfolio-img-ctr{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+    .portfolio-desc{
+      text-align: left;
+    }
+    .btn-prj-link{
+      width: 99%;
+    }
+    .btn-col{
+      text-align: center;
+    }
+    .portfolio-img{
+      width: 100%;
+      height: 225px;
+      object-fit: cover;
+    }
+  </style>
+
+
+<section id="contact">
+
+    <div class="container-fluid">
+      <div class="row">
+		{% for social in socials.all %}
+        <div class="contact-socials col-lg-4">
+          <a href="{{social.instagram}}">
+          <i class="contact-fa fa-brands fa-instagram "></i>
+        </a>
+        <a href="{{social.twitter}}">
+          <i class="contact-fa fa-brands fa-twitter"></i>
+        </a>
+        <a href="{{social.linkedin}}">
+          <i class="contact-fa fa-brands fa-linkedin-in"></i>
+        </a>
+        </div>
+		{% endfor %}
+        <div class="contact-links col-lg-8">
+          <ul>
+            <li class="contact-link-item">
+              
+              <a class="contact-link" href="/newsletter">My Newsletter</a>
+            
+            </li>
+            <li class="contact-link-item">
+              <a class="contact-link" href="https://medium.com/@danielmsimiyu71">Medium Account</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="footer">
+      © Daniel Simiyu
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
